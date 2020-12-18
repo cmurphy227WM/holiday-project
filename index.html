@@ -3,10 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="menu.css" rel="stylesheet">
-    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Holiday Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style type="text/css">
+        body { background: #28a745 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+     </style>
 </head>
 <body>
-    <p id="info">Test</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger"> <!--Navbar code-->
+        <a class="navbar-brand" href="index.html">
+            <img src="https://cdn4.iconfinder.com/data/icons/holiday-hat/296/hat-02-512.png" width="30" height="30" alt="" loading="lazy">
+        </a>
+        <a class="navbar-brand" href="index.html">Holiday Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="marcWishlist.html">Marcus</a>
+            <a class="nav-link" href=".html">Brandon</a>
+            <a class="nav-link" href=".html">Dominic</a>
+            <a class="nav-link" href=".html">Daniel</a>
+          </div>
+        </div>
+      </nav>
+
+    <container class="text-sm-center"> <!--Jumbotron at top of page-->
+      <div class="jumbotron jumbotron-fluid bg-success text-white">
+            <p class="lead">(Home page made by Connor due to him not having a wishlist)</p>
+      </div>
+    </container>
+
+    <div class="container">
+    <div class="card-deck">
+        <div class="card border-top rounded-0"> <!--First card code that links to Items page, with centered image-->
+      <div class="card-body bg-success text-light">
+          <h5 class="card-title">Marcus</h5>
+          <p class="card-text">View Marcus's college essay.</p>
+          <a href=".html" class="btn btn-danger btn-lg" role="button" aria-pressed="true">Click to View</a>
+      </div>
+      </div>
+      <div class="card border-top rounded-0"> <!--First card code that links to Items page, with centered image-->
+        <div class="card-body bg-success text-light">
+            <h5 class="card-title">Brandon</h5>
+            <p class="card-text">View Brandon's list.</p>
+            <a href=".html" class="btn btn-danger btn-lg" role="button" aria-pressed="true">Click to View</a>
+        </div>
+        </div>
+        <div class="card border-top rounded-0"> <!--First card code that links to Items page, with centered image-->
+            <div class="card-body bg-success text-light">
+                <h5 class="card-title">Dominic</h5>
+                <p class="card-text">View Dominic's list.</p>
+                <a href=".html" class="btn btn-danger btn-lg" role="button" aria-pressed="true">Click to View</a>
+            </div>
+            </div>
+            <div class="card border-top rounded-0"> <!--First card code that links to Items page, with centered image-->
+                <div class="card-body bg-success text-light">
+                    <h5 class="card-title">Daniel</h5>
+                    <p class="card-text">View Daniel's list.</p>
+                    <a href=".html" class="btn btn-danger btn-lg" role="button" aria-pressed="true">Click to View</a>
+                </div>
+                </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
